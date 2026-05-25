@@ -19,6 +19,7 @@ These gaps made it difficult for HealthResponse to maintain high response standa
 
 This project produced a fully operational, end‑to‑end incident tracking and reporting system designed to support real‑time decision‑making at HealthResponse Ltd. The key deliverables include:
 
+
 ### 1. Real-Time Incident Intake Form (Microsoft Forms)
 A structured digital form used by responders to log emergency incidents consistently and accurately at the point of contact.
 
@@ -109,12 +110,46 @@ This **Executive Overview** dashboard provides a real‑time snapshot of emergen
 Focuses on interventions, patient condition, and outcome categories to understand the effectiveness of responses and support quality-of-care reviews.
 
 > Suggested use: For clinical leads and quality teams to review outcomes and trends.
+<img width="2220" height="1250" alt="Patient Outcome" src="https://github.com/user-attachments/assets/3e09f703-b7b0-4391-a27a-6643f5e4dc38" />
+
+
+### Patient Outcomes — Key Insights
+- **Total incidents:** **3,000** — steady demand across the window; no single‑day surge.  
+- **Average response time:** **37.83 minutes** — acceptable overall but uneven by priority (Critical much faster than Medium/Low).  
+- **SLA compliance:** **69.43%** — below target; investigate Medium and Low priority delays.  
+- **Critical incidents:** **607** — sustained high‑risk caseload requiring clinical oversight.  
+- **Top interventions:** **On‑site Assessment**, **De‑escalation Support**, **Emotional Counselling** — highest usage and primary drivers of resolved on‑site outcomes.  
+- **Outcome mix:** Significant **Resolved On‑Site** and **Follow‑up Required**; non‑trivial **Referrals/Admissions** affecting capacity planning.  
+- **Demographics:** Largest cohort **31–45**; age and gender splits useful for targeted outreach.  
+- **Actionable callouts:** Flag SLA compliance < **80%** (7‑day rolling); triage Medium backlog; reallocate on‑site assessment resources when Critical > **10%** daily.
+
+### What this dashboard shows
+
+- **Performance KPIs:** Total Incidents, Average Response Time, Escalation Rate, Critical Incidents with short trend indicators.  
+- **Outcome distribution:** Counts and proportions for Resolved On‑Site, Follow‑up Required, Referred to Hospital, Admitted for Observation, Escalated to Crisis Team, No Contact Made.  
+- **SLA compliance:** Gauge showing percent of incidents meeting response time targets and a clear SLA target reference.  
+- **Intervention usage and effectiveness:** Bar and matrix views for Intervention Types (On‑site Assessment, De‑escalation, Counselling, Medication Advice, Safeguarding Referral) and their outcome correlations.  
+- **Patient profile and severity:** Age and Gender distributions; Patient Condition counts (Distressed, Critical, Stable, Unresponsive).  
+- **Drilldowns and filters:** Filter by priority, region, team, and time window for operational follow‑up.  
+- **Operational notes:** Data window: last 30 days; updated hourly. Last updated: **YYYY‑MM‑DD HH:MM**. Owners: On‑call Ops for SLA breaches; weekly review of intervention effectiveness.
+
+
+**Extended description**
+
+Data window: last 30 days; updated hourly.  
+Key metrics: Total Incidents, Average Response Time, Escalation Rate, Critical Incidents.  
+SLA targets: Critical ≤ 15 min; High ≤ 30 min; Medium ≤ 60 min; Low ≤ 120 min.  
+Current SLA compliance: 69.43% (investigate Medium and Low priority delays).  
+Top actions: On‑call Ops for SLA breaches; triage Medium backlog; review intervention effectiveness weekly.  
+Last updated: 2026-05-25 10:22 BST
 
 ### 3. Regional & Location Performance
 
 Highlights incident distribution by region and location type, response times, and vulnerable population metrics.
 
 > Suggested use: For operational planning, resource allocation, and identifying high-risk areas.
+<img width="1777" height="1000" alt="Regional Dashboard" src="https://github.com/user-attachments/assets/bfb06701-4a74-4edf-aa03-18679bdaa1b1" />
+
 
 ### 4. Incident Types & Trends
 
