@@ -143,90 +143,102 @@ Current SLA compliance: 69.43% (investigate Medium and Low priority delays).
 Top actions: On‑call Ops for SLA breaches; triage Medium backlog; review intervention effectiveness weekly.  
 Last updated: 2026-05-25 10:22 BST
 
-### 3. Regional & Location Performance
+### 3. Regional Overview & Patient Performance
 
-Highlights incident distribution by region and location type, response times, and vulnerable population metrics.
+**Description**  
+This dashboard provides a combined view of incident distribution across regions, patient status on arrival, outcomes by location type, and performance patterns that help identify hotspots, vulnerable groups, and operational improvement areas.
 
 > Suggested use: For operational planning, resource allocation, and identifying high-risk areas.
 <img width="1777" height="1000" alt="Regional Dashboard" src="https://github.com/user-attachments/assets/bfb06701-4a74-4edf-aa03-18679bdaa1b1" />
 
+### Key Insights
 
-### 4. Incident Types & Trends
+- **Incident volume:** 3,000 total incidents, with major activity concentrated in large cities such as London, Birmingham, Manchester, Leeds, and Newcastle.  
+- **Location type patterns:** Most incidents occur in **Homes (1,677)**, followed by **Public Areas (452)** and **Care Homes (360)**.  
+- **Outcome distribution:** Strong mix of **Resolved On Site**, **Follow‑Up Required**, and **Referred to Hospital**, with smaller proportions of **Escalated**, **Admitted**, and **No Contact Made**.  
+- **Patient status on arrival:** High number of **Distressed (1,340)** and **Critical (825)** cases, indicating significant frontline pressure.  
+- **Vulnerable populations:** Care Homes show the highest vulnerability rate (**55%**), requiring targeted safeguarding and support.  
+- **Response time by location:** Response times vary slightly by location type, ranging from **35.68 to 39.9 minutes**, with Care Homes experiencing the longest delays.  
+- **Operational hotspots:** Regions with high incident density and high vulnerable‑person percentages should be prioritised for resource allocation.
 
-Breaks down incident categories (e.g. mental health crisis, panic attack, welfare check) and shows how demand changes over time.
+---
 
-> Suggested use: For understanding demand patterns and planning staffing or specialist support.
+### What This Dashboard Shows
 
+- **UK regional incident map** with markers for major cities and hotspots.  
+- **Total incidents** with monthly trend bars (Jan–Dec).  
+- **Incidents by location type** (Home, Public Area, Care Home, Hospital, Workplace).  
+- **Outcome by location type** including Follow‑Up Required, Resolved On Site, Referred to Hospital, Escalated, Admitted, and No Contact Made.  
+- **Patient status on arrival** (Distressed, Critical, Stable, Unresponsive).  
+- **Vulnerable person analysis** by location type, including counts and percentages.  
+- **Response time by location type** showing average minutes per category.  
+- **Filters** for Region, Dispatcher Name, Gender, and Priority Level.
 
+---
 
-## 📊 Key Metrics & Insights
+**Last updated:** 2026‑05‑25 17:06
 
-The dashboards provide real-time visibility into emergency incident activity, operational performance, and patient outcomes. Below are the core metrics and insights derived from the live dataset:
+**Summary**  
+Delivered a production‑grade real‑time incident tracking and outcome reporting system that turned fragmented manual logs into an automated analytics pipeline and operational dashboards. The work enabled faster, evidence‑based decisions for operations and clinical teams and produced measurable improvements in visibility and prioritisation.
 
-### 🔹 Incident Volume & Trends
-- **3,000 total incidents** recorded during the reporting period.
-- Activity remained steady across all months, with noticeable peaks during high‑demand periods.
-- **Critical incidents: 607**, indicating sustained clinical pressure on response teams.
+---
 
-### 🔹 Response Performance
-- **Average response time: 37.83 minutes** across all incident types.
-- Critical cases were handled fastest at **14 minutes**, reflecting strong prioritisation.
-- Low‑priority incidents experienced delays, averaging **89 minutes**, highlighting potential resource constraints.
+### Key learnings
 
-### 🔹 Escalation & Case Complexity
-- **Escalation rate: 36.43%**, showing over one‑third of incidents required higher‑level support.
-- High escalation levels correlate with increased mental‑health‑related incidents.
+- **Prioritise by risk and vulnerability** — Care Homes and high‑density urban areas consistently drive the greatest operational risk and should be first for targeted interventions.  
+- **Interventions drive outcomes** — On‑site Assessment and De‑escalation show the strongest association with resolved‑on‑site outcomes and reduced re‑contact.  
+- **Leading indicators matter** — Re‑contact and follow‑up backlog are reliable early warnings for rising referrals and admissions.  
+- **Data quality underpins trust** — Standardised intake and automated pipelines reduce manual errors and materially improve dashboard reliability for frontline decision‑making.  
+- **Design for action** — Dashboards that pair concise insights with ownerable actions (who, when, threshold) increase the likelihood of operational follow‑through.
 
-### 🔹 Incident Types & Patterns
-- Top categories:
-  - **Mental Health Crisis: 503**
-  - **Panic Attack: 503**
-  - **Welfare Check: 488**
-  - **Suicide Risk: 378**
-- Mental‑health‑related incidents represent a significant portion of operational demand.
+---
 
-### 🔹 Patient Outcomes & Interventions
-- Most used interventions:
-  - **On‑site Assessment: 641**
-  - **Emergency Transport: 569**
-  - **De‑escalation Support: 548**
-- Patient condition on arrival:
-  - **Distressed: 1,340**
-  - **Critical: 825**
-  - **Stable: 593**
-  - **Unresponsive: 242**
+### Skills demonstrated
 
-### 🔹 Regional & Location Insights
-- Highest incident locations:
-  - **Home: 1,677**
-  - **Public Area: 452**
-  - **Care Home: 360**
-- Vulnerable population highest in **Care Homes (55%)**.
-- Response times vary by location type, ranging from **35.68 to 39.9 minutes**.
+- **Data integration & ETL** — built automated pipelines (Forms → Power Automate → Google Sheets) to centralise incident, dispatch, and outcome data.  
+- **Data modelling & validation** — designed schemas, implemented cross‑checks, and validated counts, timestamps, and vulnerable‑person flags.  
+- **Dashboard design & visualization** — created multi‑page Looker Studio dashboards (maps, funnels, gauges, cohort tables) for operational and executive audiences.  
+- **Operational analytics** — defined KPIs and leading indicators (response time, escalation rate, re‑contact) and linked them to actionable thresholds.  
+- **Cohort analysis & clinical evaluation** — segmented by age, location, and incident type to identify high‑risk cohorts and evaluate intervention effectiveness.  
+- **Stakeholder engagement & communication** — translated analytics into concise briefings, playbooks, and ownerable actions for Ops and Clinical leads.  
+- **Quality assurance & iteration** — implemented validation tests and weekly feedback loops to refine visuals, thresholds, and annotations.
 
-### 🔹 SLA Compliance
-- **69.43% SLA compliance**, indicating improvement opportunities in response consistency and resource allocation.
+---
 
-These insights support operational decision‑making, highlight areas requiring intervention, and provide a data‑driven foundation for improving service quality and patient outcomes.
+### Demonstrated impact (examples)
 
+- **Resource reallocation:** used regional and vulnerability signals to justify shifting mobile units to high‑need localities during peak windows.  
+- **Clinical prioritisation:** recommended targeted on‑site assessment training after observing its strong association with resolved‑on‑site outcomes.  
+- **Process improvement:** introduced a daily triage for follow‑up backlog items, reducing re‑contact among targeted cohorts in pilot areas.  
+- **Faster decision‑making:** replaced manual end‑of‑day reporting with hourly dashboards, enabling real‑time operational adjustments.
 
+---
 
-7. What You Learned / Skills Demonstrated
-This is where you show your growth.
+### Next steps to scale impact
 
-Examples:
+- **Formalise a playbook** linking dashboard signals to operational actions and named owners.  
+- **Track success metrics** (re‑contact rate, resolved‑on‑site rate, time‑to‑first‑follow‑up) to measure interventions.  
+- **Automate alerts** for leading indicators (follow‑up backlog, rising re‑contact) to trigger predefined escalation workflows.  
+- **Expand cohort analytics** to include social determinants and repeat‑caller case management.
 
-Building automated workflows
+---
 
-Designing real-time dashboards
+**Role & contribution**  
+Led end‑to‑end delivery: intake design, pipeline automation, data modelling, dashboard build, validation, and operational handover.
 
-Structuring operational data
+### Technologies Used
 
-Communicating insights to stakeholders
+| **Tool / Technology** | **Purpose** | **Notes** |
+|---|---|---|
+| **Microsoft Forms** | Incident intake form | Structured frontline data capture |
+| **Power Automate** | ETL / pipeline automation | Real‑time transfer from Forms to Sheets |
+| **Google Sheets** | Centralised operational datastore | Schema, formulas, and lightweight modelling |
+| **Looker Studio** | Interactive dashboards & reporting | Multi‑page dashboards, maps, funnels, gauges |
+| **SQL / Google Sheets formulas** | Data modelling & aggregation | Derived metrics, cohort queries, validation checks |
+| **Scripting (Apps Script / Python)** | Validation & automation tasks | Data quality checks and simple automations |
+| **Notifications (Email / Slack)** | Alerts and operational notifications | Automated alerts for owners and thresholds |
+| **Stakeholder tools** | Handover and collaboration | Playbooks, briefings, and weekly review notes |
 
-Understanding emergency response metrics
-
-This section is gold for recruiters.
 9. How the System Works (Real Instructions)
 Explain how someone could replicate or understand the workflow.
 
@@ -236,11 +248,12 @@ Submit a form → data flows into Sheets → dashboard updates automatically
 
 This proves it’s a real system.
 
-10. Contact Section
-Add your:
+### Contact
 
-LinkedIn
+**Primary contact**  
+**Name:** Collins  
+**Email:** **Collins@cyfercore.com**  
+**LinkedIn:** **[https://www.linkedin.com/in/collins](https://www.linkedin.com/public-profile/settings/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3BJYYNbJ4lQQyixFn8AGLUBA%3D%3D)**  
+**Location:** **Birmingham, United Kingdom**
 
-Email
 
-This makes it easy for recruiters to reach out.
