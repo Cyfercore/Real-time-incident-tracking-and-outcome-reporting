@@ -119,6 +119,12 @@ The dashboards provide real-time visibility into emergency incident activity, op
 
 These insights support operational decision‑making, highlight areas requiring intervention, and provide a data‑driven foundation for improving service quality and patient outcomes.
 
+## Dashboards
+
+### Executive Overview
+This screenshot shows the high‑level incident volume and response metrics. Note: SLA breakdowns are not included in this image.
+
+![Executive Overview](executive dashboard.png)
 
 
 
