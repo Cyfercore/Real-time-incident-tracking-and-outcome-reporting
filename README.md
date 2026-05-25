@@ -239,14 +239,6 @@ Led end‑to‑end delivery: intake design, pipeline automation, data modelling,
 | **Notifications (Email / Slack)** | Alerts and operational notifications | Automated alerts for owners and thresholds |
 | **Stakeholder tools** | Handover and collaboration | Playbooks, briefings, and weekly review notes |
 
-9. How the System Works (Real Instructions)
-Explain how someone could replicate or understand the workflow.
-
-Example:
-
-Submit a form → data flows into Sheets → dashboard updates automatically
-
-This proves it’s a real system.
 
 ### Contact
 
