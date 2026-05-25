@@ -69,6 +69,61 @@ Acts as the centralised, always‑up‑to‑date database for all incident recor
 **4. Looker Studio – Real‑Time Dashboards**  
 Dashboards connect directly to the live dataset, providing managers with instant visibility into incident activity, response performance, patient outcomes, and regional trends.
 
+## 📺 Dashboards
+
+The reporting layer is built in Looker Studio and is organised into multiple pages to support different operational views.
+
+### 1. Executive Overview – Dashboard Summary
+
+This **Executive Overview** dashboard provides a real‑time snapshot of emergency incident activity and operational performance. It highlights overall workload, response efficiency, case severity, and team performance so decision‑makers can understand system pressure at a glance and also shows the high‑level view of overall incident activity, response metrics and escalation.
+
+> Suggested use: For managers and leadership to monitor live performance and identify pressure points.
+
+
+
+<img width="1878" height="1056" alt="executive dashboard" src="https://github.com/user-attachments/assets/047ffc6d-e9c6-4508-966a-e4ecd99d16f5" />
+
+### Key Insights
+- **Total Incidents: 3,000** — steady activity across all months, showing consistent service demand.
+- **Average Response Time: 37.83 minutes** — strong performance on **Critical** cases (14 mins), but delays on **Low** (89 mins) and **Medium** (49 mins) priorities.
+- **Critical Incidents: 607** — sustained high‑risk workload indicating clinical pressure.
+- **Escalation Rate: 36.43%** — over one‑third of cases required higher‑level support, signalling rising case complexity.
+- **Incident Types** — Mental Health Crisis and Panic Attacks are the most common categories, each reaching 503 cases.
+- **Priority Mix** — High (1.1K) and Medium (996) priorities dominate the workload.
+- **Response Modes** — Field Visits (32.5%) and Ambulance Dispatch (29.4%) are the most used, showing reliance on physical deployment.
+- **Team Performance** — Most teams respond within 30–40 minutes, with noticeable variation that highlights optimisation opportunities.
+
+### What This Dashboard Shows
+- **[Incident Trends](ca://s?q=Explain_incident_trends_chart)** — workload patterns over time  
+- **[Priority Distribution](ca://s?q=Explain_priority_distribution)** — severity mix and risk levels  
+- **[Incident Types](ca://s?q=Explain_incident_types_breakdown)** — dominant categories driving demand  
+- **[Response Time by Team](ca://s?q=Explain_team_response_time_chart)** — operational bottlenecks  
+- **[Response Modes](ca://s?q=Explain_response_modes)** — resource allocation and deployment mix  
+- **[Performance Summary](ca://s?q=Summarise_dashboard_performance)** — leadership‑ready insights  
+
+
+
+
+### 2. Patient Outcomes
+
+Focuses on interventions, patient condition, and outcome categories to understand the effectiveness of responses and support quality-of-care reviews.
+
+> Suggested use: For clinical leads and quality teams to review outcomes and trends.
+
+### 3. Regional & Location Performance
+
+Highlights incident distribution by region and location type, response times, and vulnerable population metrics.
+
+> Suggested use: For operational planning, resource allocation, and identifying high-risk areas.
+
+### 4. Incident Types & Trends
+
+Breaks down incident categories (e.g. mental health crisis, panic attack, welfare check) and shows how demand changes over time.
+
+> Suggested use: For understanding demand patterns and planning staffing or specialist support.
+
+
+
 ## 📊 Key Metrics & Insights
 
 The dashboards provide real-time visibility into emergency incident activity, operational performance, and patient outcomes. Below are the core metrics and insights derived from the live dataset:
@@ -118,13 +173,6 @@ The dashboards provide real-time visibility into emergency incident activity, op
 - **69.43% SLA compliance**, indicating improvement opportunities in response consistency and resource allocation.
 
 These insights support operational decision‑making, highlight areas requiring intervention, and provide a data‑driven foundation for improving service quality and patient outcomes.
-
-## Dashboards
-
-### Executive Overview
-This screenshot shows the high‑level incident volume and response metrics. Note: SLA breakdowns are not included in this image.
-
-![Executive Overview](executive dashboard.png)
 
 
 
